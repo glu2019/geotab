@@ -26,7 +26,7 @@ const App: React.FunctionComponent<AppProps> = props => {
   function getSudoku() {
     props.setLoading(true)
     axios
-      .get('/sudoku/board')
+      .get('/sudoku')
       .then(res => {
         setPuzzleArray(res.data)
         props.setLoading(false)
@@ -61,7 +61,7 @@ const App: React.FunctionComponent<AppProps> = props => {
         emptyArray[e.index] = e.value
       })
       axios
-        .post('/sudoku/board', {
+        .post('/sudoku', {
           num: emptyArray,
         })
         .then(res => {
