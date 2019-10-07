@@ -49,6 +49,7 @@ python3.6 manage.py runserver 0:8080
 Configure with nginx: 
 1. copy the following codes to /etc/nginx/conf.d
 
+```
 server {
    listen   8000;
    server_name _;
@@ -63,7 +64,7 @@ server {
        proxy_pass http://localhost:8080;
    }
 }
-
+```
 2. restart nginx:
 ```bash
 sudo service nginx restart
