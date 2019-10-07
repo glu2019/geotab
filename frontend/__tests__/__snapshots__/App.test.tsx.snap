@@ -1,0 +1,1496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> it matches the snapshot 1`] = `
+<div
+  className="ant-spin-nested-loading board-container"
+>
+  <div
+    className="ant-spin-container"
+  >
+    <h1>
+      Sudoku Board
+    </h1>
+    <div
+      className="sudoku_board"
+    >
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+      <div
+        className="cell"
+        onClick={[Function]}
+        role="button"
+      >
+        <span />
+      </div>
+    </div>
+    <div
+      className="button-wrapper"
+    >
+      <button
+        className="ant-btn ant-btn-primary"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          Submit
+        </span>
+      </button>
+      <button
+        className="ant-btn ant-btn-primary"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          Clear selected
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App /> it matches the snapshot 2`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(App) />
+</ContextProvider>
+`;
+
+exports[`<App /> render board 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      loading={true}
+      setLoading={[Function]}
+    >
+      <Spin
+        size="default"
+        spinning={true}
+        wrapperClassName="board-container"
+      >
+        <div
+          className="ant-spin-nested-loading board-container"
+        >
+          <div
+            key="loading"
+          >
+            <div
+              className="ant-spin ant-spin-spinning"
+            >
+              <span
+                className="ant-spin-dot ant-spin-dot-spin"
+              >
+                <i
+                  className="ant-spin-dot-item"
+                />
+                <i
+                  className="ant-spin-dot-item"
+                />
+                <i
+                  className="ant-spin-dot-item"
+                />
+                <i
+                  className="ant-spin-dot-item"
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            className="ant-spin-container ant-spin-blur"
+            key="container"
+          >
+            <h1>
+              Sudoku Board
+            </h1>
+            <Sudoku
+              onChange={[Function]}
+              puzzleArray={
+                Array [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                ]
+              }
+              selected={Array []}
+            >
+              <div
+                className="sudoku_board"
+              >
+                <div
+                  className="cell"
+                  key="0"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="1"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="2"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="3"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="4"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="5"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="6"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="7"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="8"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="9"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="10"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="11"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="12"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="13"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="14"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="15"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="16"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="17"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="18"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="19"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="20"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="21"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="22"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="23"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="24"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="25"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="26"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="27"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="28"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="29"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="30"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="31"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="32"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="33"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="34"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="35"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="36"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="37"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="38"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="39"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="40"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="41"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="42"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="43"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="44"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="45"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="46"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="47"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="48"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="49"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="50"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="51"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="52"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="53"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="54"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="55"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="56"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="57"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="58"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="59"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="60"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="61"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="62"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="63"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="64"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="65"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="66"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="67"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="68"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="69"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="70"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="71"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="72"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="73"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="74"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="75"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="76"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="77"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="78"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="79"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+                <div
+                  className="cell"
+                  key="80"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  <span />
+                </div>
+              </div>
+            </Sudoku>
+            <div
+              className="button-wrapper"
+            >
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+                type="primary"
+              >
+                <Wave>
+                  <button
+                    className="ant-btn ant-btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      key=".0"
+                    >
+                      Submit
+                    </span>
+                  </button>
+                </Wave>
+              </Button>
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+                type="primary"
+              >
+                <Wave>
+                  <button
+                    className="ant-btn ant-btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      key=".0"
+                    >
+                      Clear selected
+                    </span>
+                  </button>
+                </Wave>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Spin>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
