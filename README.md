@@ -6,7 +6,7 @@
 
 1. git clone https://github.com/glu2019/geotab.git
 2. Run docker-compose build
-3. Run docker-compose up (please make sure the port 80 is open.)
+3. Run docker-compose up (please make sure the ports 80, 8080 and 3000 are open.)
 4. To run it permernantly: docker-compose up -d
 4. visit localhost, you will see the sudoko board. 
 
@@ -40,6 +40,10 @@ python3.6 -m venv env
 ```bash
 source env/bin/activate
 ```
+5. Run pip install:
+```bash
+pip3.6 install -r requirements.txt 
+
 5. Run server:
 ```bash
 python3.6 manage.py runserver 0:8080
