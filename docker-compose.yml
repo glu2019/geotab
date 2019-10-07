@@ -1,0 +1,25 @@
+version: "3"
+services:
+  backend:
+    build: backend
+    volumes:
+      - ./backend:/usr/local/geotab/backend/
+    ports:
+      - 8080:8080
+  frontend:
+    build: frontend
+    volumes:
+      - ./frontend/:/usr/local/geotab/frontend/
+      - /usr/local/geotab/frontend/node_modules/
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+  nginx:
+    image: nginx:1.15
+    volumes:
+      - ./config/geo-nginx.conf:/etc/nginx/conf.d/geo-nginx.conf
+    ports:
+      - 80:8000
+    depends_on:
+      - frontend

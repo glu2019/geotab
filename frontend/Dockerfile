@@ -1,9 +1,10 @@
 FROM node:lts-jessie-slim
 EXPOSE 3000
+RUN mkdir /usr/local/geotab/
+RUN mkdir /usr/local/geotab/frontend/
+WORKDIR /usr/local/geotab/frontend/
 
-RUN mkdir -p /usr/local/sudoku/
-COPY package.json /usr/local/sudoku/
-COPY .npmrc /usr/local/sudoku/
+COPY package.json /usr/local/geotab/frontend/
 
-WORKDIR /usr/local/sudoku/
-RUN npm i
+RUN npm install --silent
+CMD ["npm", "run", "start"]

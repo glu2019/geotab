@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: sudoku-ws:level-4
+    volumes:
+      - .:/usr/local/geotab/backend
+    ports:
+      - 8000:8000

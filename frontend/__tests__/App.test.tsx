@@ -7,7 +7,7 @@ import { withStore, axiosMock } from './test-utils'
 let wrapper: ShallowWrapper<AppProps>
 let snapshot: ReactTestRenderer
 
-const apiRegex = /\/sudoku/
+const apiRegex = /\/sudoku\/board/
 const sudokuRes = [
   2,
   1,

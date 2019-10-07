@@ -1,0 +1,12 @@
+version: "3"
+services:
+  frontend:
+    build: .
+    image: sudoku-spa:level-4
+    volumes:
+      - .:/usr/local/geotab/frontend
+      - /usr/local/geotab/frontend/node_modules
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: production
