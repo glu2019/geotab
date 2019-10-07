@@ -585,21 +585,12 @@ exports[`<App /> it matches the snapshot 1`] = `
       className="button-wrapper"
     >
       <button
-        className="ant-btn ant-btn-primary"
+        className="ant-btn ant-btn-primary ant-btn-lg"
         onClick={[Function]}
         type="button"
       >
         <span>
-          Submit
-        </span>
-      </button>
-      <button
-        className="ant-btn ant-btn-primary"
-        onClick={[Function]}
-        type="button"
-      >
-        <span>
-          Clear selected
+          Reload
         </span>
       </button>
     </div>
@@ -1448,40 +1439,19 @@ exports[`<App /> render board 1`] = `
                 htmlType="button"
                 loading={false}
                 onClick={[Function]}
+                size="large"
                 type="primary"
               >
                 <Wave>
                   <button
-                    className="ant-btn ant-btn-primary"
+                    className="ant-btn ant-btn-primary ant-btn-lg"
                     onClick={[Function]}
                     type="button"
                   >
                     <span
                       key=".0"
                     >
-                      Submit
-                    </span>
-                  </button>
-                </Wave>
-              </Button>
-              <Button
-                block={false}
-                ghost={false}
-                htmlType="button"
-                loading={false}
-                onClick={[Function]}
-                type="primary"
-              >
-                <Wave>
-                  <button
-                    className="ant-btn ant-btn-primary"
-                    onClick={[Function]}
-                    type="button"
-                  >
-                    <span
-                      key=".0"
-                    >
-                      Clear selected
+                      Reload
                     </span>
                   </button>
                 </Wave>

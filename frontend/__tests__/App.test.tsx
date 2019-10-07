@@ -7,7 +7,7 @@ import { withStore, axiosMock } from './test-utils'
 let wrapper: ShallowWrapper<AppProps>
 let snapshot: ReactTestRenderer
 
-const apiRegex = /\/sudoku\/board/
+const apiRegex = /\/sudoku/
 const sudokuRes = [
   2,
   1,
@@ -136,15 +136,14 @@ describe('<App />', () => {
       .find('.cell')
       .at(0)
       .simulate('click')
-    expect(mountWrapper.find('.fix').length).toBe(1)
     mountWrapper
-      .find('button')
+      .find('.cell')
       .at(1)
       .simulate('click')
+    expect(mountWrapper.find('.fix').length).toBe(0)
     mountWrapper
       .find('button')
       .at(0)
       .simulate('click')
-    expect(mountWrapper.find('.fix').length).toBe(0)
   })
 })
