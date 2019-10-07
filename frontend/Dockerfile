@@ -6,5 +6,5 @@ WORKDIR /usr/local/geotab/frontend/
 
 COPY package.json /usr/local/geotab/frontend/
 
-RUN npm install
+RUN npm install --silent
 CMD ["npm", "run", "start"]
