@@ -1,16 +1,16 @@
-import * as constants from "../constants";
+import * as constants from '../constants'
 
 //define action interfaces
 interface SetLoadingAction {
-  type: constants.SET_LOADING;
-  loading: boolean;
+  type: constants.SET_LOADING
+  loading: boolean
 }
 
 export function setLoading(l: boolean): SetLoadingAction {
   return {
     type: constants.SET_LOADING,
-    loading: l
-  };
+    loading: l,
+  }
 }
 
-export type LoadAction = SetLoadingAction;
+export type LoadAction = SetLoadingAction

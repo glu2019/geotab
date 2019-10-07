@@ -1,13 +1,13 @@
-import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import { loadReducer } from "../reducers/index";
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk'
+import { loadReducer } from '../reducers/index'
 
-let middleWare = [thunk];
+let middleWare = [thunk]
 
 export interface LoadState {
-  loading: boolean;
+  loading: boolean
 }
 
-const store = createStore(loadReducer, applyMiddleware(...middleWare));
+const store = createStore(loadReducer, applyMiddleware(...middleWare))
 
-export default store;
+export default store

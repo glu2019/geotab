@@ -1,13 +1,13 @@
-import * as React from "react";
-import { mount, shallow, ShallowWrapper } from "enzyme";
-import { create, ReactTestRenderer } from "react-test-renderer";
-import App, { AppProps } from "../src/component/App";
-import { withStore, axiosMock } from "./test-utils";
+import * as React from 'react'
+import { mount, shallow, ShallowWrapper } from 'enzyme'
+import { create, ReactTestRenderer } from 'react-test-renderer'
+import App, { AppProps } from '../src/component/App'
+import { withStore, axiosMock } from './test-utils'
 
-let wrapper: ShallowWrapper<AppProps>;
-let snapshot: ReactTestRenderer;
+let wrapper: ShallowWrapper<AppProps>
+let snapshot: ReactTestRenderer
 
-const apiRegex = /\/sudoku\/board/;
+const apiRegex = /\/sudoku\/board/
 const sudokuRes = [
   2,
   1,
@@ -89,62 +89,62 @@ const sudokuRes = [
   4,
   5,
   7,
-  9
-];
+  9,
+]
 
 beforeEach(() => {
-  const app = <App />;
+  const app = <App />
 
-  wrapper = shallow(withStore(app));
-  snapshot = create(withStore(app));
-});
+  wrapper = shallow(withStore(app))
+  snapshot = create(withStore(app))
+})
 
 beforeAll(() => {
-  axiosMock.onGet(apiRegex).reply(async () => await [200, sudokuRes]);
-  axiosMock.onPost(apiRegex).reply(async () => await [200, sudokuRes]);
-});
+  axiosMock.onGet(apiRegex).reply(async () => await [200, sudokuRes])
+  axiosMock.onPost(apiRegex).reply(async () => await [200, sudokuRes])
+})
 
 afterAll(() => {
-  axiosMock.onGet(apiRegex).passThrough();
-  axiosMock.onPost(apiRegex).passThrough();
-});
+  axiosMock.onGet(apiRegex).passThrough()
+  axiosMock.onPost(apiRegex).passThrough()
+})
 
-describe("<App />", () => {
-  test("it matches the snapshot", () => {
-    expect(snapshot).toMatchSnapshot();
-    expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find(".cell")).not.toBeNull();
-  });
+describe('<App />', () => {
+  test('it matches the snapshot', () => {
+    expect(snapshot).toMatchSnapshot()
+    expect(wrapper).toMatchSnapshot()
+    expect(wrapper.find('.cell')).not.toBeNull()
+  })
 
-  it("render board", () => {
-    const mountWrapper = mount(withStore(<App />));
-    expect(mountWrapper).toMatchSnapshot();
+  it('render board', () => {
+    const mountWrapper = mount(withStore(<App />))
+    expect(mountWrapper).toMatchSnapshot()
     mountWrapper
-      .find(".cell")
+      .find('.cell')
       .at(0)
-      .simulate("click");
+      .simulate('click')
     mountWrapper
-      .find(".cell")
+      .find('.cell')
       .at(1)
-      .simulate("click");
-    expect(mountWrapper.find(".fix").length).toBe(2);
+      .simulate('click')
+    expect(mountWrapper.find('.fix').length).toBe(2)
     mountWrapper
-      .find("button")
+      .find('button')
       .at(0)
-      .simulate("click");
+      .simulate('click')
     mountWrapper
-      .find(".cell")
+      .find('.cell')
       .at(0)
-      .simulate("click");
-    expect(mountWrapper.find(".fix").length).toBe(1);
+      .simulate('click')
+    expect(mountWrapper.find('.fix').length).toBe(1)
     mountWrapper
-      .find("button")
+      .find('button')
       .at(1)
-      .simulate("click");
+      .simulate('click')
     mountWrapper
-      .find("button")
+      .find('button')
       .at(0)
-      .simulate("click");
-    expect(mountWrapper.find(".fix").length).toBe(0);
-  });
-});
+      .simulate('click')
+    expect(mountWrapper.find('.fix').length).toBe(0)
+  })
+})
