@@ -1,6 +1,4 @@
 FROM python:3.8.0b1-stretch
-LABEL maintainer="Guangwen Lu <luguangwen2018@gmail.com>"
-
 RUN apt-get update
 EXPOSE 8080
 RUN mkdir /usr/local/geotab
